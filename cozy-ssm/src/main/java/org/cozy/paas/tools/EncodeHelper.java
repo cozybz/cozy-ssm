@@ -4,7 +4,7 @@ import java.security.MessageDigest;
 
 public class EncodeHelper {
 	private static final char[] HEX_DIGITS = { '0', '1', '2', '3', '4', '5',
-			'6' , '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };
+			'6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };
 
 	public static String encodeBySHA1(String str) {
 		return encode("SHA1", str);
